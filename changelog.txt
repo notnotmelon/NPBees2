@@ -1,0 +1,270 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.2.13
+Date: 2022/11/19
+  Bugfixes:
+    - Space Exploration compatibility attempt
+  Changes:
+    - don't make sealed SE core fragments
+    - difficulty check on tech prerequisites: normal -> expensive -> "both"
+---------------------------------------------------------------------------------------------------
+Version: 2.2.11
+Date: 10/12/2020
+  Features:
+    - Fixed localisation on certian resources
+    - Fixed a bug that was hiding bees from space exploration and other mods
+    - Added a version Portuguese
+    - Updated the description for the nursery
+    - Mutation chance rebalance
+---------------------------------------------------------------------------------------------------
+Version: 2.2.10
+Date: 10/11/2020
+  Features:
+    - Syntax error
+---------------------------------------------------------------------------------------------------
+Version: 2.2.9
+Date: 10/11/2020
+  Features:
+    - Readded fluid bees
+    - Ores that require fluids will now require that fluid when you solidify beeswax
+    - Reordered the item menu
+---------------------------------------------------------------------------------------------------
+Version: 2.2.8
+Date: 10/11/2020
+  Features:
+    - Mutation chance rebalance
+    - Bee recipes are now ordeded by species instead of product
+    - Fixed a crash with Melange
+---------------------------------------------------------------------------------------------------
+Version: 2.2.7
+Date: 23. 09. 14
+  Bugfixes:
+    - Clean queens must now be at 1 HP to mutate into other queens
+---------------------------------------------------------------------------------------------------
+Version: 2.2.6
+Date: 23. 08. 18
+  Bugfixes:
+    - Fixed a crash with Bot Servicing
+---------------------------------------------------------------------------------------------------
+Version: 2.2.5
+Date: 23. 07. 6
+  Bugfixes:
+    - Fixed a crash involving wood bees
+---------------------------------------------------------------------------------------------------
+Version: 2.2.4
+Date: 23. 07. 5
+  Bugfixes:
+    - Added fluid boxes to the sequencer
+---------------------------------------------------------------------------------------------------
+Version: 2.2.3
+Date: 23. 07. 2
+  Bugfixes:
+    - Fixed a crash with bob's technology
+    - Fixed an issue with the recipe for syringes
+---------------------------------------------------------------------------------------------------
+Version: 2.2.2
+Date: 23. 07. 2
+  Bugfixes:
+    - Fixed a crash with angel's bio processesing
+---------------------------------------------------------------------------------------------------
+Version: 2.2.1
+Date: 23. 07. 1
+  Changes:
+    - Improved algorithm for detecting level one bees
+    - Improved the mod interface
+    - Rebalanced wood bees
+  Bugfixes:
+    - Fixed a crash with bio industries
+---------------------------------------------------------------------------------------------------
+Version: 2.2.0
+Date: 23. 06. 30
+  Info:
+    - Added a .17 version
+  Changes:
+    - Rewrote all the code
+    - Added fluid bees
+    - Removed all startup settings
+    - Wood is now disabled automatically
+    - Added a new system for bee breeding
+    - Added a new system that allows other mods to interface with bees
+    - Recipes no longer decompose
+  Bugfixes:
+    - Fixed a bug with icon sizes
+---------------------------------------------------------------------------------------------------
+Version: 2.1.0
+Date: 23. 06. 20
+  Bugfixes:
+    - Formatted changelog for mod portal
+    - Change hive recipes
+    - Change logistic bee sound
+  Compatibility:
+    - Add space exploration
+    - Bees moved into data stage 2
+  Changes:
+    - Change tech tree
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 23. 06. 20
+  Bugfixes:
+    - Fixed a crash with pyrawores
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 23. 06. 20
+  Info:
+    - Update to .18
+  Changes:
+    - Change sprite of hive t3
+    - Remove useless startup settings
+    - Added sounds
+  Compatibility:
+    - Added pymods dependancy
+---------------------------------------------------------------------------------------------------
+Version: 19.1.17
+Date: 17. 01. 19
+  Balance:
+    - Made the mod much more powerful in general
+    - Halfed honey requirements for ore queens
+    - Tripled ore yield from water
+    - Increased ore yield from mineral sludge
+    - Doubled crafting recipie of honey
+    - Added advanced ore producion to vanilia. It uses heavy oil
+    - Reduced power requirements for industrial hive
+    - Quadrupled power consumption of the transposer
+    - Halfed the honey price of industrial hive
+  Compatibility:
+    - Added purple science to Logistic hive tech if not using bobsmods
+    - Removed raw wood in angels and seablock
+  Bugfixes:
+    - Added all the queens to the circut network
+---------------------------------------------------------------------------------------------------
+Version: 18.4.26
+Date: 26. 04. 18
+  Compatibility:
+    - Added raw wood bees to seablock
+    - Added support for dyWorld and any other mod that dynamically generates sprites for ores
+  Bugfixes:
+    - Fixed that item sprites for combs had corner icons
+---------------------------------------------------------------------------------------------------
+Version: 18.4.11
+Date: 11. 04. 18
+  Changes:
+    - Changed the liquifoamer to the liquiformer mk2
+    - Rebalanced power and pollution values
+    - Copper, iron, saphirite, and stiratite bees no longer require green science
+    - Liquiformers now run their animation backwards when they run out of frames
+    - The logistic hive now requires logistic science packs with bob's science
+    - Slightly changed the apiary’s description
+    - You no longer need engine units and advanced electronics to research copper and iron bees
+    - Moved the circut connector sprite for the logistic hive
+    - Most buildings will now require a stone-based construction material when AAI is installed
+---------------------------------------------------------------------------------------------------
+Version: 18.4.3
+Date: 03. 04. 18
+  Changes:
+    - Fixed a bug where some images wouldn't render on Mac (Hopefully)
+    - Added support for productivity modules
+    - Fixed the omnicum plate technology
+    - Added support for fast replace
+---------------------------------------------------------------------------------------------------
+Version: 18.3.27
+Date: 27. 03. 18
+  Changes:
+    - Huge internal overhaul
+    - Added this changelog to the mod files
+    - Renamed the bee house to the apiary
+    - Renamed the genetic maker to the sequencer
+    - Changed the subgroup of the empty syringe
+    - The omnite bees technology now requires beekeeping
+    - Changed the technology icon for beekeeping 2
+    - Added migrations for update smoothness
+    - Changed the crafting times of some buildings for variety
+---------------------------------------------------------------------------------------------------
+Version: 18.3.25
+Date: 25. 03. 18
+  Changes:
+    - Added the liquifoamer, a new building used to processes combs faster than the liquiformer.
+    - Added better support for omnimatter
+    - Changed the color of omniplate bees, they are now a light purple
+    - Changed the recipe for logistic bees, they now require alien bacteria and robot brains (if angelbob is included)
+    - The logistic beehive technology now requires alien research (if angelsbioprocessing is included)
+    - Fixed the algorithm for dynamic bee technology. Now unknown bees will get proper technology
+    - Youki's ores will now have bees if angels is installed (disabled previously)
+---------------------------------------------------------------------------------------------------
+Version: 18.3.24
+Date: 24. 03. 18
+  Changes:
+    - Fixed the icon for advanced beekeeping
+    - Reduced the amount of honey required for advanced comb production
+    - Reduced the amount of time advanced comb production takes from 12 to 10
+    - Made genetic mutation take thirty seconds across the board
+    - Added dynamic descriptions for items and tech
+    - Made omnimatter compatibility less boring (not done but better than before)
+    - Added more prerequisites for vanilla ores
+---------------------------------------------------------------------------------------------------
+Version: 18.3.23
+Date: 23. 03. 18
+  Changes:
+    - Removed beekeeping 2, all unlocks from that technology have been moved to beekeeping 1
+    - The logistic hive technology now requires beekeeping 2. (Formerly beekeeping 3)
+    - Added empty syringes. These are required in genetic mutation as a replacement for honey. They require glass if paired with angel's smelting
+    - Removed wooden bees if omniwood, Arboretum, bobgreenhouse, or Bio_Industries are installed
+    - Added manganese bees in seablock to help balance massive steel requirements
+    - Fixed a bug involving corner icons with ores that required fluid to mine
+    - Reduced the steel requirements for some machines
+
+---------------------------------------------------------------------------------------------------
+Version: 18.3.22
+Date: 22. 03. 18
+  Changes:
+    - Technology overhaul! Each bee now has it's own research
+    - Ores that require fluid to mine are now crafted with that fluid
+    - Ores that require fluid no longer have mineral sludge recipes
+    - Reduced the stack size of logistic bees from 5 to 2
+    - Increased the amount of robot slots in the logistic hive from 20 to 50
+    - Added technology prerequisites for bees from sulfur ore, pyfusion, angels, and clowns minerals
+    - Slightly changed mineral sludge recipes (uses more sludge, but fewer molds)
+---------------------------------------------------------------------------------------------------
+Version: 18.3.21
+Date: 21. 03. 18
+  Changes:
+    - Added logistic and construction bees
+    - Rebalanced the logistic hive in order to move away from regular robots inside hives
+    - Note: 'Fusion' robots that don't require power can still use the logistic hive. This leads to a very broken roboport. I would recommend not putting those inside hives if you prefer a balanced gameplay.
+    - Added five startup options
+    - Remove logistic bees
+    - Remove 'corner icons' from recipe sprites
+    - Change maximum mutation chance
+    - Increase/decrease mutation chance (Additive)
+    - Change the number of larva a queen can produce
+    - Fixed a bug with seablock compatibility involving wood use in a building
+    - Preparations for pycoal compatibility (it's a bit awkward because most of the ores in that mod are mined differently than normal)
+    - Preparations for technology overhaul (expect something similar to omnimatter)
+    - Retextured the item group icon (again)
+---------------------------------------------------------------------------------------------------
+Version: 18.3.20
+Date: 20. 03. 18
+  Changes:
+    - Renamed the centrifuge
+    - Retextured the logistic hive technology
+    - Reduced the amount of global variables
+    - Remade the algorithm that determines mutation chance
+    - Added advanced support for seablock
+    - Added support for Yuoki
+    - Added advanced support for Clown's ores
+    - Retextured the item group icon
+    - Added a new icon for the mod
+    - Reduced the startup time
+    - Changed ore prices for Angel's refining
+---------------------------------------------------------------------------------------------------
+Version: 18.3.19
+Date: 19. 03. 18
+  Changes:
+    - Added a description for the nursery
+    - Forced darker ores to have a lighter bee texture
+    - Added a beta prices system, to make certain ores harder to get
+    - Made some of the icons more descriptive
+    - Retextured the bee house
+---------------------------------------------------------------------------------------------------
+Version: 18.3.18
+Date: 18. 03. 18
+  Info:
+    - Mod release
