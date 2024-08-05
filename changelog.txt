@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 2.3.0
+Date: 2024-08-05
+  Features:
+    - Added automatic portal deployment via https://github.com/fgardt/factorio-mod-template
+  Locale:
+    - Fixed unknown key error with the honey item
+---------------------------------------------------------------------------------------------------
 Version: 2.2.13
 Date: 2022/11/19
   Bugfixes:
@@ -152,7 +159,7 @@ Date: 11. 04. 18
     - Copper, iron, saphirite, and stiratite bees no longer require green science
     - Liquiformers now run their animation backwards when they run out of frames
     - The logistic hive now requires logistic science packs with bob's science
-    - Slightly changed the apiary’s description
+    - Slightly changed the apiaryï¿½s description
     - You no longer need engine units and advanced electronics to research copper and iron bees
     - Moved the circut connector sprite for the logistic hive
     - Most buildings will now require a stone-based construction material when AAI is installed
@@ -210,7 +217,6 @@ Date: 23. 03. 18
     - Added manganese bees in seablock to help balance massive steel requirements
     - Fixed a bug involving corner icons with ores that required fluid to mine
     - Reduced the steel requirements for some machines
-
 ---------------------------------------------------------------------------------------------------
 Version: 18.3.22
 Date: 22. 03. 18
