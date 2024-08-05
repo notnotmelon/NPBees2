@@ -1,4 +1,4 @@
-data:extend{
+data:extend {
 	{
 		type = 'item',
 		name = 'empty-syringe',
@@ -62,30 +62,60 @@ data:extend{
 	},
 	{
 		capsule_action = {
-			attack_parameters = {
-				ammo_category = 'capsule',
-				ammo_type = {
-					action = {
-						action_delivery = {
-							target_effects = {
-								damage = {
-									amount = -100,
-									type = 'physical'
+			capsule_action = {
+				attack_parameters = {
+					activation_type = 'consume',
+					ammo_category = 'capsule',
+					ammo_type = {
+						action = {
+							action_delivery = {
+								target_effects = {
+									{
+										damage = {
+											amount = -100,
+											type = 'physical'
+										},
+										type = 'damage'
+									},
+									{
+										sound = {
+											{
+												filename = '__base__/sound/eat.ogg',
+												volume = 0.6
+											},
+											{
+												filename = '__base__/sound/eat-1.ogg',
+												volume = 0.6
+											},
+											{
+												filename = '__base__/sound/eat-2.ogg',
+												volume = 0.6
+											},
+											{
+												filename = '__base__/sound/eat-3.ogg',
+												volume = 0.6
+											},
+											{
+												filename = '__base__/sound/eat-4.ogg',
+												volume = 0.6
+											}
+										},
+										type = 'play-sound'
+									}
 								},
-								type = 'damage'
+								type = 'instant'
 							},
-							type = 'instant'
+							type = 'direct'
 						},
-						type = 'direct'
+						category = 'capsule',
+						target_type = 'position'
 					},
-					category = 'capsule',
-					target_type = 'position'
+					cooldown = 30,
+					range = 0,
+					type = 'projectile'
 				},
-				cooldown = 30,
-				range = 0,
-				type = 'projectile'
+				type = 'use-on-self'
 			},
-			type = 'use-on-self'
 		},
 		name = 'honey',
 		icon = '__NPBees2__/graphics/icon/honey.png',
@@ -100,15 +130,15 @@ data:extend{
 		name = 'propolis-ammo',
 		enabled = false,
 		energy_required = 2,
-		ingredients = 
+		ingredients =
 		{
-			{'iron-plate', 2},
+			{'iron-plate',       2},
 			{'mutated-propolis', 4}
 		},
 		result = 'propolis-ammo',
 		subgroup = 'bees-machine',
 		category = 'crafting',
-        order = 'y'
+		order = 'y'
 	},
 	{
 		type = 'ammo',
@@ -137,23 +167,23 @@ data:extend{
 						{
 							type = 'damage',
 							damage = {
-								amount = 12, 
+								amount = 12,
 								type = 'physical'
 							}
-						}																
+						}
 					}
 				}
 			}
 		},
 		magazine_size = 35,
 		subgroup = 'bees-machine',
-        order = 'y',
+		order = 'y',
 		stack_size = 200
 	}
 }
 
-for i=1, 10 do
-	data:extend{{
+for i = 1, 10 do
+	data:extend {{
 		order = 'd',
 		type = 'item',
 		icon = '__NPBees2__/graphics/icon/clean-queen.png',
