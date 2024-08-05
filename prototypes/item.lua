@@ -62,60 +62,58 @@ data:extend {
 	},
 	{
 		capsule_action = {
-			capsule_action = {
-				attack_parameters = {
-					activation_type = 'consume',
-					ammo_category = 'capsule',
-					ammo_type = {
-						action = {
-							action_delivery = {
-								target_effects = {
-									{
-										damage = {
-											amount = -100,
-											type = 'physical'
-										},
-										type = 'damage'
+			attack_parameters = {
+				activation_type = 'consume',
+				ammo_category = 'capsule',
+				ammo_type = {
+					action = {
+						action_delivery = {
+							target_effects = {
+								{
+									damage = {
+										amount = -100,
+										type = 'physical'
 									},
-									{
-										sound = {
-											{
-												filename = '__base__/sound/eat.ogg',
-												volume = 0.6
-											},
-											{
-												filename = '__base__/sound/eat-1.ogg',
-												volume = 0.6
-											},
-											{
-												filename = '__base__/sound/eat-2.ogg',
-												volume = 0.6
-											},
-											{
-												filename = '__base__/sound/eat-3.ogg',
-												volume = 0.6
-											},
-											{
-												filename = '__base__/sound/eat-4.ogg',
-												volume = 0.6
-											}
-										},
-										type = 'play-sound'
-									}
+									type = 'damage'
 								},
-								type = 'instant'
+								{
+									sound = {
+										{
+											filename = '__base__/sound/eat.ogg',
+											volume = 0.6
+										},
+										{
+											filename = '__base__/sound/eat-1.ogg',
+											volume = 0.6
+										},
+										{
+											filename = '__base__/sound/eat-2.ogg',
+											volume = 0.6
+										},
+										{
+											filename = '__base__/sound/eat-3.ogg',
+											volume = 0.6
+										},
+										{
+											filename = '__base__/sound/eat-4.ogg',
+											volume = 0.6
+										}
+									},
+									type = 'play-sound'
+								}
 							},
-							type = 'direct'
+							type = 'instant'
 						},
-						category = 'capsule',
-						target_type = 'position'
+						type = 'direct'
 					},
-					cooldown = 30,
-					range = 0,
-					type = 'projectile'
+					category = 'capsule',
+					target_type = 'position'
 				},
-				type = 'use-on-self'
+				cooldown = 30,
+				range = 0,
+				type = 'projectile'
 			},
+			type = 'use-on-self'
 		},
 		name = 'honey',
 		icon = '__NPBees2__/graphics/icon/honey.png',
